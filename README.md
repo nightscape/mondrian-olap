@@ -102,7 +102,7 @@ When schema is defined it is necessary to establish OLAP connection to database.
 
     olap = Mondrian::OLAP::Connection.create(
       :driver => 'mysql',
-      :host => 'localhost,
+      :host => 'localhost',
       :database => 'mondrian_test',
       :username => 'mondrian_user',
       :password => 'secret',
